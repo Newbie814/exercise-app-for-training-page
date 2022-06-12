@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Box, Stack, Typography } from '@mui/material';
 
-import HeroBannerImage from '../assets/images/banner.jpg';
+import HeroBannerImage from '../assets/images/Banner2.jpg';
 
 const HeroBanner = () => {
   return (
@@ -11,7 +11,7 @@ const HeroBanner = () => {
       position='relative'
       p='20px'
     >
-      <Typography color='#bb2525' fontWeight='600' fontSize='26px'>
+      <Typography color='#104e7a' fontWeight='600' fontSize='26px'>
         Woodard Training
       </Typography>
       <Typography
@@ -46,7 +46,7 @@ const HeroBanner = () => {
       </Stack>
       <Typography
         fontWeight={600}
-        color='#FF2625'
+        color='#104e7a'
         sx={{
           opacity: '0.1',
           display: { lg: 'block', xs: 'none' },
