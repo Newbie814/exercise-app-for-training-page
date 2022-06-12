@@ -41,7 +41,7 @@ const HeroBanner = () => {
             borderRadius: '4px',
           }}
         >
-          Explore Exercises
+          Search Exercises
         </a>
       </Stack>
       <Typography
