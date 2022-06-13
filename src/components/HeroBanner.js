@@ -33,7 +33,7 @@ const HeroBanner = () => {
             textDecoration: 'none',
             width: '200px',
             textAlign: 'center',
-            background: '#FF2625',
+            background: '#bb2525',
             padding: '14px',
             fontSize: '22px',
             textTransform: 'none',
