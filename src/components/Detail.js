@@ -41,16 +41,16 @@ const Detail = ({ exerciseDetail }) => {
           sx={{ fontSize: { lg: '24px', xs: '18px' } }}
           color='#4F4C4C'
         >
-          Strength Training supports Metabolism.{' '}
-          <span style={{ textTransform: 'capitalize' }}>{name}</span> is one of
-          the best <br /> exercises to target your {target}. It will help you
-          improve your <br /> muscle, bone, and metabolic health.
+          Strength Training supports Metabolism. The
+          <span style={{ textTransform: 'capitalize' }}> {name}</span> is one of
+          the best exercises to target your {target}. It will help you improve
+          your muscle, bone, and metabolic health.
         </Typography>
         {extraDetail?.map((item) => (
           <Stack key={item.name} direction='row' gap='24px' alignItems='center'>
             <Button
               sx={{
-                background: '#FFF7D6',
+                background: '#8bcbf9',
                 borderRadius: '50%',
                 width: '100px',
                 height: '100px',
